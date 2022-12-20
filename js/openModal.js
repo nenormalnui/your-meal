@@ -18,13 +18,6 @@ export const openModal = async (id) => {
 
   ingredientsList.textContent = "";
 
-  product.ingredients.forEach((item) => {
-    const li = document.createElement("li");
-    li.classList.add("ingredients__item");
-    li.textContent = item;
-    ingredientsList.append(li);
-  });
-
   const ingredientsListItem = product.ingredients.map((item) => {
     const li = document.createElement("li");
     li.classList.add("ingredients__item");
