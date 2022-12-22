@@ -86,6 +86,11 @@
   margin-top: auto;
 }
 
+.modal-success {
+  font-size: 20px;
+  color: #FF7020;
+}
+
 @media (min-width: 480px) {
   .modal-delivery {
     padding: 20px 16px 29px;

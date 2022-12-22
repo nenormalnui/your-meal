@@ -25,7 +25,6 @@ modalProduct.addEventListener("click", (event) => {
   renderListProduct();
   navigationListController(renderListProduct);
   cartInit();
-  //renderCartList();
 };
 
 init();
